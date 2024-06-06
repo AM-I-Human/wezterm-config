@@ -3,8 +3,8 @@ local gpu_adapters = require('utils.gpu_adapter')
 local colors = require('colors.custom')
 
 return {
-   animation_fps = 60,
-   max_fps = 60,
+   animation_fps = 40,
+   max_fps = 40,
    front_end = 'WebGpu',
    webgpu_power_preference = 'HighPerformance',
    webgpu_preferred_adapter = gpu_adapters:pick_best(),
@@ -39,11 +39,13 @@ return {
 
    -- window
    window_padding = {
-      left = 5,
-      right = 10,
-      top = 12,
-      bottom = 7,
+      left = 0,
+      right = 0,
+      top = 0,
+      bottom = 0,
    },
+   initial_rows = 80,
+   initial_cols = 350,
    window_close_confirmation = 'NeverPrompt',
    window_frame = {
       active_titlebar_bg = '#090909',
