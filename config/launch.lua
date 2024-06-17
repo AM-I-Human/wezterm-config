@@ -12,6 +12,7 @@ if platform.is_win then
       { label = 'PowerShell Desktop', args = { 'powershell' } },
       { label = 'Command Prompt', args = { 'cmd' } },
       { label = 'Nushell', args = { 'nu' } },
+      { label = 'Xonsh', args = { 'xonsh' } },
       {
          label = 'Git Bash',
          args = { 'C:\\Users\\kevin\\scoop\\apps\\git\\current\\bin\\bash.exe' },
@@ -24,6 +25,8 @@ elseif platform.is_mac then
       { label = 'Fish', args = { '/opt/homebrew/bin/fish', '-l' } },
       { label = 'Nushell', args = { '/opt/homebrew/bin/nu', '-l' } },
       { label = 'Zsh', args = { 'zsh', '-l' } },
+      { label = 'pwsh', args = { 'pwsh' } },
+      { label = 'Xonsh', args = { 'xonsh', '-l' } },
    }
 elseif platform.is_linux then
    options.default_prog = { 'fish', '-l' }
@@ -31,6 +34,7 @@ elseif platform.is_linux then
       { label = 'Bash', args = { 'bash', '-l' } },
       { label = 'Fish', args = { 'fish', '-l' } },
       { label = 'Zsh', args = { 'zsh', '-l' } },
+      { label = 'Xonsh', args = { 'xonsh', '-l' } },
    }
 end
 
