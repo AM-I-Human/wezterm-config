@@ -8,10 +8,10 @@ return {
    front_end = 'WebGpu',
    webgpu_power_preference = 'HighPerformance',
    webgpu_preferred_adapter = gpu_adapters:pick_best(),
-
    -- color scheme
-   colors = colors,
+   -- colors = colors,
 
+   color_scheme = 'Dracula',
    -- background
    background = {
       {
