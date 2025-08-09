@@ -1,4 +1,6 @@
 return {
+   term = 'wezterm',
+
    -- behaviours
    automatically_reload_config = true,
    exit_behavior = 'CloseOnCleanExit', -- if the shell program exited with a successful status
