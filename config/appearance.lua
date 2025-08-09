@@ -44,7 +44,7 @@ return {
       top = 0,
       bottom = 0,
    },
-   initial_rows = 80,
+   initial_rows = 75,
    initial_cols = 350,
    window_close_confirmation = 'NeverPrompt',
    window_frame = {
