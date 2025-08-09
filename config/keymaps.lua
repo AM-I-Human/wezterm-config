@@ -62,10 +62,12 @@ local keys = {
    { key = 't',          mods = mod.SUPER,     action = act.SpawnTab('DefaultDomain') },
    { key = 't',          mods = mod.SUPER_REV, action = act.SpawnTab({ DomainName = 'WSL:Kali' }) },
    { key = 'w',          mods = mod.SUPER_REV, action = act.CloseCurrentTab({ confirm = false }) },
-   { key = "h",          mods = mod.SUPER,     action = wezterm.action{ActivateTabRelative=-1} },
-   { key = "l",          mods = mod.SUPER,     action = wezterm.action{ActivateTabRelative=1} },
 
    -- tabs: navigation
+   { key = 'h',          mods = mod.SUPER,     action = act.ActivateTabRelative(-1) },
+   { key = 'l',          mods = mod.SUPER,     action = act.ActivateTabRelative(1) },
+   { key = 'H',          mods = mod.SUPER,     action = act.MoveTabRelative(-1) },
+   { key = 'L',          mods = mod.SUPER,     action = act.MoveTabRelative(1) },
    { key = '[',          mods = mod.SUPER,     action = act.ActivateTabRelative(-1) },
    { key = ']',          mods = mod.SUPER,     action = act.ActivateTabRelative(1) },
    { key = '[',          mods = mod.SUPER_REV, action = act.MoveTabRelative(-1) },
