@@ -1,5 +1,5 @@
 return {
-   term = 'xterm-kitty',
+   -- term = 'xterm-kitty',
    enable_kitty_graphics = true,
    -- behaviours
    automatically_reload_config = true,
