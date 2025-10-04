@@ -1,6 +1,9 @@
 return {
-   term = 'xterm-kitty',
-   enable_kitty_graphics = true,
+   term = 'wezterm',
+   set_environment_variables = {
+      TERM_PROGRAM = 'WezTerm',
+   },
+   default_domain = 'local',
    -- behaviours
    automatically_reload_config = true,
    exit_behavior = 'CloseOnCleanExit', -- if the shell program exited with a successful status
