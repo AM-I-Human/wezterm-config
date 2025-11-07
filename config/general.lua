@@ -1,7 +1,7 @@
 return {
    term = 'wezterm',
    set_environment_variables = {
-      TERM_PROGRAM = 'WezTerm',
+      TERM_PROGRAM = 'wezterm',
    },
    default_domain = 'local',
    -- behaviours
