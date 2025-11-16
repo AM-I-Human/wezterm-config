@@ -1,5 +1,5 @@
 return {
-   term = 'wezterm',
+   term = 'xterm-256color',
    set_environment_variables = {
       TERM_PROGRAM = 'wezterm',
    },
